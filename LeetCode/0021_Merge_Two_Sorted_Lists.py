@@ -6,22 +6,22 @@
 
 class Solution:
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
-        dummy = tail = ListNode(0)
+        dummy = tail = ListNode(0) # 伪头
         while l1 and l2:
             if l1.val < l2.val:
-                tail.next = l1
-                l1 = l1.next
+                tail.next = l1 # 插尾
+                l1 = l1.next # 去头
             else:
                 tail.next = l2
                 l2 = l2.next
-            tail = tail.next
-        tail.next = l1 or l2
+            tail = tail.next # 更新尾
+        tail.next = l1 or l2 # 最终尾
         # if not l1:
         #     tail.next = l2
         # else:
         #     tail.next = l1
             
-        return dummy.next
+        return dummy.next # 去伪头
         
 '''
 # recursive
