@@ -1,1 +1,1 @@
-# AlgoTestForPython
+# Python Algorithm
