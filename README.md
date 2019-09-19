@@ -1,3 +1,3 @@
 # Python Algorithm
 
-Test Readme Bug
+Eliminate Readme Bug
