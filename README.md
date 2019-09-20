@@ -1,3 +1,7 @@
 # Python Algorithm
 
-Eliminate Readme Bug
+### Leetcode:
+
+### Lintcode:
+
+### Other:
