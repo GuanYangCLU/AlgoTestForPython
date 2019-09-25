@@ -6,6 +6,6 @@
 
 ### Other:
 
-### Weeks:
+### Lectures:
 
 ### Types:
