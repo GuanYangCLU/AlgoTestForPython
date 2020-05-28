@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/non-decreasing-array/discuss/106816/Python-Extremely-Easy-to-Understand
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
         matrix, start = [], n * n + 1 # inside-out reverse spiral
