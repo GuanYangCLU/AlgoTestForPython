@@ -6,6 +6,20 @@ class Solution:
         :rtype: List[int]
         """
         
+        dic = {}
+        for i, n in enumerate(nums):
+            if (n in dic):
+                return [dic[n], i]
+            dic[target - n] = i
+
+class Solution:
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        
         dict = {i: (target - nums[i]) for i in range(len(nums))}
         for i in range(len(nums)):
             if (dict[i] in nums):#can only use once
