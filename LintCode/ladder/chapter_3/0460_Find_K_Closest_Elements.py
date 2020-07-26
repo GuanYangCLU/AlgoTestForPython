@@ -9,10 +9,10 @@ class Solution:
         # write your code here
         # get lst of len(k) asc order
         # 2 pointer partition
-        if not arr:
+        if not A:
             return []
-        if len(arr) < 2 and k < 2:
-            return arr
+        if len(A) == k:
+            return self.orderedRes(A, target)
             
         left, right = 0, len(A) - k
         
@@ -22,9 +22,13 @@ class Solution:
                 left = mid
                 continue
             right = mid
+            
+        print(left, right)
         
         start = right if target - A[left] > A[left + k] - target else left
         tempRes = A[start:start + k]
+        
+        print(tempRes)
         
         return self.orderedRes(tempRes, target)
         
