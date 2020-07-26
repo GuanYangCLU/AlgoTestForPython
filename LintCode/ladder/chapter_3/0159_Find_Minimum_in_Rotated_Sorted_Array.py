@@ -9,7 +9,10 @@ class Solution:
             return
         
         left, right = 0, len(nums) - 1
-        minIdx = 0
+        
+        if nums[left - 1] > nums[left]:
+            return nums[left]
+        
         while left + 1 < right:
             mid = (left + right) // 2
             if nums[mid - 1] > nums[mid]:
