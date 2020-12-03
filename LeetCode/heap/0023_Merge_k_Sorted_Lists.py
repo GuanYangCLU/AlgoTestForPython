@@ -23,3 +23,4 @@ class Solution:
                 lists[nextIndex] = lists[nextIndex].next
         return dummy.next
         
+# TODO: devide and conquor: nklogk, merge 2 for k/2 times with logn time, then merge 2 for k/4 with 2n length, ...
