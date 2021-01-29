@@ -1,4 +1,5 @@
 # Lint Amazon Ladder 1
+# https://www.jiuzhang.com/problem/most-common-word/
 import re
 
 class Solution:
@@ -22,4 +23,3 @@ class Solution:
             if curWordFreq > freq:
                 mostWord, freq = word, curWordFreq
         return mostWord
-        
