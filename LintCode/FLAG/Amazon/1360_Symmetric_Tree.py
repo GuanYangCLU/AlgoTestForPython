@@ -18,12 +18,12 @@ class Solution:
             return True
         return self.isMirror(root.left, root.right)
 
-    def isMirror(self, node1, node2):
-        if not node1 and not node2:
+    def isMirror(self, leftNode, rightNode):
+        if not leftNode and not rightNode:
             return True
-        elif not node1 or not node2:
+        elif not leftNode or not rightNode:
             return False
-        return node1.val == node2.val and self.isMirror(node1.left, node2.right) and self.isMirror(node1.right, node2.left)
+        return leftNode.val == rightNode.val and self.isMirror(leftNode.left, rightNode.right) and self.isMirror(leftNode.right, rightNode.left)
 
 # 多此一举
 class Solution:
