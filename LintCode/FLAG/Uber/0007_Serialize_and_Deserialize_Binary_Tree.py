@@ -5,7 +5,6 @@ class TreeNode:
         self.val = val
         self.left, self.right = None, None
 """
-# TODO: DFS solutions
 
 class Solution:
     """
@@ -57,3 +56,49 @@ class Solution:
             if node.right:
                 nodes.append(node.right)
         return nodes[0]
+
+# DFS:
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Codec:
+
+    def serialize(self, root):
+        """Encodes a tree to a single string.
+        
+        :type root: TreeNode
+        :rtype: str
+        """
+        return ','.join(self.getPreparedNodeList(root))
+    
+    def getPreparedNodeList(self, root):
+        if not root:
+            return ['#']
+        return [str(root.val)] + self.getPreparedNodeList(root.left) + self.getPreparedNodeList(root.right)
+
+    def deserialize(self, data):
+        """Decodes your encoded data to tree.
+        
+        :type data: str
+        :rtype: TreeNode
+        """
+        return self.dfs(data.split(','))
+        
+    def dfs(self, nodeList):
+        nodeValStr = nodeList.pop(0)
+        if nodeValStr == '#':
+            return
+        root = TreeNode(int(nodeValStr))
+        root.left = self.dfs(nodeList)
+        root.right = self.dfs(nodeList)
+        return root
+        
+
+# Your Codec object will be instantiated and called as such:
+# ser = Codec()
+# deser = Codec()
+# ans = deser.deserialize(ser.serialize(root))
