@@ -2,7 +2,7 @@
 
 ### Leetcode:
 
-### Lintcode:
+### Lintcode: [Solutions](https://www.jiuzhang.com/solutions/)
 
 ### Other:
 
