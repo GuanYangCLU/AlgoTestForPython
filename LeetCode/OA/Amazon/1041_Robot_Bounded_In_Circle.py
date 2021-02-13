@@ -1,4 +1,5 @@
 # 2021 Jan Amazon OA
+# each time the direction change range is between 0 to 3, so 4 times later must come back to same direction
 class Solution:
     def isRobotBounded(self, instructions: str) -> bool:
         if not instructions:
