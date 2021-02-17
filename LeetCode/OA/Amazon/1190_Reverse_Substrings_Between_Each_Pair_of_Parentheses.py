@@ -1,5 +1,6 @@
 class Solution:
     def reverseParentheses(self, s: str) -> str:
+        # find next char in a snake order
         if not s:
             return ''
         start, end = 0, len(s) - 1
