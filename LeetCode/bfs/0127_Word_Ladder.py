@@ -23,7 +23,8 @@ class Solution:
     
     def extendQueue(self, graph, queue, visited, oppositeVisited, wordList):
         # print(graph, queue, visited, oppositeVisited)
-        # cannot be while queue
+        # cannot be while queue, 因为我们这次只遍历一整层，而while queue则继续向下一层遍历直到停止
+        # 所以含distance dict记录深度的模板可以while queue，而变量记录distance层数的只能for这一层的queue
         for _ in range(len(queue)):
             word = queue.popleft()
             for nextWord in self.getNextWordList(word, wordList, graph):
