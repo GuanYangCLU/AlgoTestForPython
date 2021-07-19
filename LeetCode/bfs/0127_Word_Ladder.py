@@ -1,4 +1,4 @@
-# 双向BFS
+# 双向BFS, 196ms
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
         # 不转set会超时
@@ -53,7 +53,7 @@ class Solution:
         return nextWordList
             
 
-# 单向BFS
+# 单向BFS, 348ms
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
         wordList = set(wordList)
