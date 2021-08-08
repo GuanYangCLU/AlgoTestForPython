@@ -7,3 +7,7 @@ BFS(one/two directions):
 DFS(memorization):
 
 [Word Break II](https://github.com/GuanYangCLU/AlgoTestForPython/blob/master/LeetCode/dfs/0140_Word_Break_II.py)
+
+Union Find:
+[Number of Islands II](https://github.com/GuanYangCLU/AlgoTestForPython/blob/master/LeetCode/unionFind/0305_Number_of_Islands_II.py)
+
