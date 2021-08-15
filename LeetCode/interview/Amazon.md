@@ -12,3 +12,6 @@ Union Find:
 
 [Number of Islands II](https://github.com/GuanYangCLU/AlgoTestForPython/blob/master/LeetCode/unionFind/0305_Number_of_Islands_II.py)
 
+Binary Indexed Tree(树状数组/二叉索引树):
+
+[Count of Smaller Numbers After Self](https://github.com/GuanYangCLU/AlgoTestForPython/blob/master/LeetCode/binaryIndexedTree/0315_Count_of_Smaller_Numbers_After_Self.py)
