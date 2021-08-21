@@ -10,6 +10,8 @@ class Solution:
         if not L:
             return 0
         size = min(max(L), sum(L) // k)
+        if size == 0:
+            return 0
         
         left, right = 1, size
         while left + 1 < right:
@@ -20,7 +22,7 @@ class Solution:
             if self.getKBySize(L, mid) >= k:
                 left = mid
         
-        return right if self.getKBySize(L, left) < k else left
+        return right if self.getKBySize(L, right) >= k else left
         
     def getKBySize(self, L, size):
         return sum([n // size for n in L])
