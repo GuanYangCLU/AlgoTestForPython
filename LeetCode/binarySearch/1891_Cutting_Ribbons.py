@@ -15,7 +15,7 @@ class Solution:
                 continue
             if self.getNumBySize(mid, ribbons) >= k:
                 left = mid
-        # print(left, right, self.getNumBySize(left, ribbons), self.getNumBySize(right, ribbons), k)
+        # 若两个答案都符合（>=k）则取较大的，预先剔除size==0的0分母异常
         return right if self.getNumBySize(right, ribbons) >= k else left
     
     def getNumBySize(self, size, ribbons):
