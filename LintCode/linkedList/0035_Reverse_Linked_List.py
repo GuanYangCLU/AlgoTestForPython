@@ -13,7 +13,7 @@ class Solution:
     """
     def reverse(self, head):
         # write your code here
-        # 链表和树的操作，都是局部维护整体的相似形
+        # 链表和树的操作，都是局部操作维护整体的相似形 ★
         # 遍历过程中，始终保持链表切为两段，左边是倒序，存头指针，右边是正序尚未逆转，也存头指针
         # null | 1 -> 2 -> 3 -> null
         # null 1 | 2 -> 3 -> null
