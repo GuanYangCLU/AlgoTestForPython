@@ -5,3 +5,4 @@
 
 [LC 1650 LCA III](https://github.com/GuanYangCLU/AlgoTestForPython/blob/master/LeetCode/dfs/1650_Lowest_Common_Ancestor_of_a_Binary_Tree_III.py)
 
+[LC1676 LCA IV](https://github.com/GuanYangCLU/AlgoTestForPython/blob/master/LeetCode/dfs/1676_Lowest_Common_Ancestor_of_a_Binary_Tree_IV.py)
