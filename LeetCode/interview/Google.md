@@ -19,3 +19,5 @@
 
 [LC 437 tree path sum counts](https://github.com/GuanYangCLU/AlgoTestForPython/blob/master/LeetCode/dfs/memorization/0437_Path_Sum_III.py)
 
+[LC 1048 longest word chain with just one char change](https://github.com/GuanYangCLU/AlgoTestForPython/blob/master/LeetCode/dp/1048_Longest_String_Chain.py)
+
