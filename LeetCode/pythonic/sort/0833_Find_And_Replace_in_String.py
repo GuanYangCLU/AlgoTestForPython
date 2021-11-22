@@ -1,5 +1,7 @@
 # https://leetcode.com/problems/find-and-replace-in-string/discuss/130587/C%2B%2BJavaPython-Replace-S-from-right-to-left
 
+# key point: how to use sort to replace without side effect
+
 class Solution:
     def findReplaceString(self, S: str, indexes: List[int], sources: List[str], targets: List[str]) -> str:
         # replace index from tail to head because after replace the S might change from i to end
