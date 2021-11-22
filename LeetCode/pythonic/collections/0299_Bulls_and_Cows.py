@@ -8,6 +8,7 @@ class Solution:
         # bulls = sum(x == y for x, y in zip(secret, guess))
         
         both = sum(min(secret.count(x), guess.count(x)) for x in set(guess))
-        # both = collections.Counter(secret) & collections.Counter(guess)
+        # bothPair = collections.Counter(secret) & collections.Counter(guess)
+        # both = sum(bothPair.values())
         
         return '%dA%dB' % (bulls, both - bulls)
