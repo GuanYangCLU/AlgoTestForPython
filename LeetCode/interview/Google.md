@@ -23,3 +23,5 @@
 
 [LC 57 insert interval](https://github.com/GuanYangCLU/AlgoTestForPython/blob/master/LeetCode/arrayAndString/0057_Insert_Interval.py)
 
+[LC 300 LIS](https://github.com/GuanYangCLU/AlgoTestForPython/blob/master/LeetCode/dp/0300_Longest_Increasing_Subsequence.py)
+
