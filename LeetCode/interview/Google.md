@@ -15,3 +15,4 @@
 
 [LC299 Bulls and Cows (guess number game 1)](https://github.com/GuanYangCLU/AlgoTestForPython/blob/master/LeetCode/pythonic/collections/0299_Bulls_and_Cows.py)
 
+[LC833 find and replace string](https://github.com/GuanYangCLU/AlgoTestForPython/blob/master/LeetCode/pythonic/sort/0833_Find_And_Replace_in_String.py)
