@@ -11,5 +11,7 @@
 
 [LC1644 LCA II might not in tree](https://github.com/GuanYangCLU/AlgoTestForPython/blob/master/LeetCode/dfs/1644_Lowest_Common_Ancestor_of_a_Binary_Tree_II.py)
 
-[LC1642 Heapq example](https://github.com/GuanYangCLU/AlgoTestForPython/blob/master/LeetCode/heap/1642_Furthest_Building_You_Can_Reach.py)
+[LC1642 Heapq example question](https://github.com/GuanYangCLU/AlgoTestForPython/blob/master/LeetCode/heap/1642_Furthest_Building_You_Can_Reach.py)
+
+[LC299 Bulls and Cows (guess number game 1)](https://github.com/GuanYangCLU/AlgoTestForPython/blob/master/LeetCode/pythonic/collections/0299_Bulls_and_Cows.py)
 
