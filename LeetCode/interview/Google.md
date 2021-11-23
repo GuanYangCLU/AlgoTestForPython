@@ -25,3 +25,9 @@
 
 [LC 300 LIS](https://github.com/GuanYangCLU/AlgoTestForPython/blob/master/LeetCode/dp/0300_Longest_Increasing_Subsequence.py)
 
+待看：
+
+[LC 1293](https://www.jiuzhang.com/problem/shortest-path-in-a-grid-with-obstacles-elimination/)
+
+[LC 307 BI Tree](https://www.jiuzhang.com/problem/range-sum-query-mutable/)
+
